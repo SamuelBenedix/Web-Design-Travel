@@ -44,29 +44,6 @@
 		$(this).toggleClass('is-active');
 		$('.menu-mobile').toggleClass('show');
 	});
-	
-	$(window).on('scroll', function(){
-		var value = window.scrollY;
-		var value2 = window.scrollX;
-		$('#picture1').css('top',-value*0.1 +'px');
-		$('#picture2').css('top',-value*0.08 +'px');
-		$('#picture3').css('top',-value*0.05 +'px');
-		
-		var about = $('#about');
-		var offset = about.offset();
-
-		if (offset) {
-			if (value > offset.top-270) {
-				$('#about-text').css('opacity',1);
-				$('#about-picture').css('opacity',1);
-			} else {
-				$('#about-text').css('opacity',0);
-				$('#about-picture').css('opacity',0);
-			}
-		}
-
-
-	  });
 
 
 	  $('.swiper-wrapper').each(function () {
