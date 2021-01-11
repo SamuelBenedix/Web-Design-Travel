@@ -52,13 +52,13 @@
 			var slide = $(this).data('slide');
 			if (slide == '2') {
 				$('.slide-picture').css('left','-100%');
-				$('#text-hero').text('Kayu-Kayu Resto');
+				$('#text-hero').text('Bromo Mountain, East Java');
 			}else if(slide == '3'){
 				$('.slide-picture').css('left','-200%');
-				$('#text-hero').text('Novhotel');
+				$('#text-hero').text('Borobudur Temple, Central Java');
 			}else{
 				$('.slide-picture').css('left',0);
-				$('#text-hero').text('Shangrila Hotel');
+				$('#text-hero').text('Labuan Bajo, NTB');
 			}
 		})
 	  });
